@@ -54,7 +54,7 @@ const Header = () => {
       event.preventDefault();
       if(query.length > 0) {
         navigate(`/search/${query}`);
-        setShowSearch(false)
+        setShowSearch(false);
       }
     };
 
